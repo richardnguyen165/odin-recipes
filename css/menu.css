@@ -7,7 +7,7 @@
 }
 
 .font{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .title{
@@ -15,15 +15,6 @@
     color: white;
     text-align: center;
     margin: 0px;
-}
-
-
-.description{
-    color: black;
-}
-
-.disclaimer{
-    font-size: 12px;
 }
 
 .topnavigationbar{
@@ -49,17 +40,26 @@
     outline: solid black 3px;
 }
 
-.recipe-of-the-day{
-    height: 450px;
-    width: 400px;
+.recipe-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
     margin: auto;
-    outline: solid black;
-    padding: 0px;
+    background-color: beige;
+    display:inline-block
 }
 
-.ingreident-name{
-    outline: solid black;
+.recipe-card button{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    background-color: orange;
 }
+
+.recipe-card button:hover{
+    background-color: orangered;
+}
+
 
 .bottom{
     position: absolute;
